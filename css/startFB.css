@@ -1,0 +1,303 @@
+/* 
+    Document   : start
+    Created on : 05.11.2010, 16:53:04
+    Author     : kay schneider <kayoliver82@gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body {
+    /*background-color:red;*/
+    /* background-image: url('../img/bg/christmass.jpg');*/
+}
+
+* {
+    font-family:tahoma;
+
+}
+
+* {
+    margin:0px;
+}
+root { 
+    display: block;
+
+}
+
+.header img {
+    border:0px;
+}
+.pageBox {
+    width:750px;
+    /*position:absolute;*/
+    top:0px;
+    /*left:50%;*/
+    /*margin-left:-350px;*/
+    min-height: 100%;
+    background-color: white;
+}
+.header {
+    width:100%;
+    border:0px solid green;
+    margin-top:0px;
+    height:220px;
+    clear: both;
+    padding-bottom:20px;
+
+
+}
+.userInfo {
+    position:absolute;
+    top:0x;
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+    font-family: tahoma;
+    font-size:12px;
+
+}
+
+.userInfo a {
+    display:block;
+}
+.logo {
+    font-size:60px;
+    font-family: tahoma;
+    margin:10px;
+    color:white;
+    float:right;
+}
+
+.pOverview {
+    width:590px;
+    margin:0px;
+    display:block;
+    border:0px solid black;
+    float:right;
+    
+}
+.content {
+    width:100%;
+    margin-top:25px;
+    clear:both;
+
+}
+.menue {
+    float:left;
+    display:block;
+    border:1px solid #D4D2D2;
+    border-top:none;
+}
+
+.product {
+    width:170px;
+    border-right:1px solid silver;
+    border-top:1px solid silver;
+    height:330px;
+    float:left;
+}
+.product:hover {
+    background-color:#BAD7F5;
+}
+.product *:hover {
+    background-color: #BAD7F5;
+}
+.userFrom {
+    margin-left: 10px;
+    margin-top:5px;
+}
+.pimg {
+    height:125px;
+}
+.pimg img{
+    /*width:150px;*/
+    height:100px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.button {
+    margin-top:5px;
+}
+.buy
+{
+    font-size:12px;
+    font-family:Tahoma,sans-serif;
+    font-weight:bold;
+    width:150px;
+    height:25px;
+    background-color: silver;
+    border-top-style:none;
+    border-bottom-style:none;
+    border-left-style:none;
+    border-right-style:none;
+}
+
+.shortInfo {
+    font-color:black;
+    font-family:tahoma;
+    font-weight: light;
+    text-align: justify;
+    margin-left:10px;
+
+}
+
+.shortInfo a:link,.shortInfo a:active,.shortInfo a:visited {
+    text-decoration: underline;
+    color:black;
+}
+
+.shortInfo a:hover {
+    text-decoration: none;
+}
+
+.prize {
+    text-align: left;
+    margin-left: 10px;
+    margin-top:10px;
+
+}
+
+.num {
+    color:orange;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.insert {
+    float:right;
+}
+.insert h1,.insert h1 a:link,.insert h1 a:visited,.insert h1 a:active {
+    font-size:14px;
+    color:white;
+    text-decoration:none;
+
+}
+
+.insert  {
+    background-color: black;
+    padding:5px;
+}
+.ajaxBoxHeader {
+    background-color:#ED852F;
+    color:white;
+    height: 30px;
+    width:97.8%;
+    padding:5px;
+    margin:0px;
+    margin-bottom: 20px;
+}
+.ajaxBoxHeader a {
+    float:right;
+    cursor: pointer;
+    font-size: 10px;
+    vertical-align: top;
+    padding-right:5px;
+}
+
+.ajaxBoxHeader h2 {
+    float:left;
+    vertical-align: middle;
+    padding-left:10px;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.flyingForm p {
+    padding:15px;
+}
+.flyingForm {
+    display:none;
+    width:450px;
+    height:400px;
+    position:absolute;
+    top:300px;
+    left:400px;
+    background-color:white;
+    border:4px solid black;
+}
+
+.pagination {
+    float:left;
+    width: 95%;
+    display:block;
+    padding:10px;
+    background-color: #98ED31;
+    text-align: center;
+    color:white;
+
+}
+
+.pagination a {
+    margin-left:5px;
+}
+
+.insertDate {
+    margin-top:10px;
+    font-size:11px;
+    margin-left:10px;
+    height: 80px;
+    background-color: silver;
+}
+
+.suche {
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    padding-right:10px;
+}
+
+.suche input {
+    font-size:20px;
+}
+
+input {
+    border-color: #E8E8E8;
+}
+
+.footer {
+    width:100%;
+    position:relative;
+    border:1px solid #98ED31;
+    text-align: center;
+    color:#ED852F;
+    margin-top:25px;
+    padding-top:10px;
+    margin-bottom:-10px;
+    float:left;
+   /* background-color: #98ED31;*/
+    bottom:-25px;
+}
+
+.footer a:link, .footer a:active, .footer a:visited {
+    color:#ED852F;
+    text-decoration: none;
+}
+.logoTopG a {
+    color: green;
+    font-size:11px;
+    font-weight: bold;
+}
+
+.topBoxFill {
+    float:left;
+    height:68px;
+    width:750px;
+    background: url('../img/layout/neuDown.png');
+}
+
+.topBoxFillS {
+    float:left;
+    height:68px;
+    width:750px;
+    background: url('../img/layout/suche_down.png');
+}
+
+.myBoxK {
+    float:right;
+    width:550px;
+}

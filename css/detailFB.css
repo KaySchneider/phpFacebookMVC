@@ -1,0 +1,175 @@
+* 
+    Document   : detail
+    Created on : 07.11.2010, 08:06:25
+    Author     : kay schneider <kayoliver82@gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*
+Overwrite the h2 from the form.css
+*/
+h2 {
+    padding:0px;
+    margin:0px;
+    color:black;
+    font-size:15px;
+}
+/**
+Overwrite the topCategMenue
+*/
+.topCategMenue {
+    padding-left:10px;
+}
+/**
+Overwrite END
+*/
+.pOverview {
+    width:950px;
+    margin:0px;
+    display:block;
+    border:0px solid black;
+    float:right;
+}
+
+.productdetail {
+    border:1px solid #D4D2D2;
+    background-color:#E8E8E8;
+    padding:10px;
+}
+.phighline {
+    margin-top:15px;
+    font-family: tahoma;
+    font-size:19px;
+}
+.hprize {
+    margin-top:15px;
+    margin-bottom:15px;
+    font-family: tahoma;
+    font-size:19px;
+}
+.bigPic {
+    border:1px solid black;
+    width:300px;
+    padding:10px;
+    float:left;
+}
+.picBox {
+    background-color:white;
+    padding:10px;
+    width:550px;
+    height:350px;
+    float:left;
+    
+    clear: both;
+}
+.picBox .morePict {
+    margin-left:10px;
+    width:180px;
+    float:right;
+    border:0px solid black;
+    padding:10px;
+}
+.morePict img {
+    border:1px solid black;
+    margin-left:3px;
+    margin-bottom:3px;
+}
+.description {
+    width:500px;
+    padding-top:40px;
+    
+}
+.descriptionHighline {
+    font-family:tahoma;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.actionBox {
+    border:1px solid #D4D2D2;
+    background-color:white;
+    float:right;
+    width:300px;
+    padding:10px;
+}
+
+.actionBox p {
+    font-family:tahoma;
+    margin-top:10px;
+}
+
+.name {
+    font-size:12px;
+    font-weight: bold;
+}
+.previewBox {
+    clear:both;
+}
+.contactPruple {
+    font-size:15px;
+    color:white;
+    font-family:Tahoma,sans-serif;
+    font-weight:bold;
+    width:200px;
+    height:40px;
+    border-top:1px solid silver;
+    border-right:1px solid silver;
+    border-left:1px solid silver;
+    border-bottom:1px solid silver;
+    background-color:#CA78FA;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    cursor:pointer;
+}
+
+.contactPurple:hover {
+    color:red;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.contactSilver {
+    font-size:15px;
+    color:white;
+    font-family:Tahoma,sans-serif;
+    font-weight:bold;
+    width:200px;
+    height:40px;
+    margin-top:10px;
+    border-top:1px solid silver;
+    border-right:1px solid silver;
+    border-left:1px solid silver;
+    border-bottom:1px solid silver;
+    background-color:#98ED31;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    cursor:pointer;
+}
+
+.addInfo {
+    float:right;
+    margin-right:10px;
+}
+
+.hidden {
+    display:none;
+}
+.buy
+{
+
+}
+
+
+iframe {
+    overflow:hidden;
+}

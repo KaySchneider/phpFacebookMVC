@@ -1,0 +1,27 @@
+Array
+(
+    [time] => Tue, 16 Nov 2010 10:06:26 -0500
+    [addr] => ******88-098-100-027.pools.arcor-ip.net
+    [agent] => Shockwave Flash
+    [post] => Array
+        (
+            [Filename] => facebookMantelRot.jpg
+            [Upload] => Submit Query
+        )
+
+    [files] => Array
+        (
+            [Filedata] => Array
+                (
+                    [name] => facebookMantelRot.jpg
+                    [type] => application/octet-stream
+                    [tmp_name] => /tmp/phpjEryrL
+                    [error] => 0
+                    [size] => 231586
+                )
+
+        )
+
+)
+
+---
